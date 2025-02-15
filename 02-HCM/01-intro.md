@@ -35,7 +35,8 @@ Envoy applies filters **in a specific order** based on their function:
 - **Request Path:** Decoder filters are executed in order (from the first to the last filter in the chain).
 - **Response Path:** Encoder filters execute in **reverse order** (from the last to the first filter in the chain).
 
-The image below illustrates this process (stored at `../assets/images/encoder-decoder-chain.png`):
+The image below illustrates this process:
+![Encoder Decoder Chain](../assets/images/encoder-decoder-chain.png)
 
 ```
 Filter 1 (encoder/decoder) → Filter 2 (encoder) → Filter 3 (decoder)
