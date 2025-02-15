@@ -15,7 +15,7 @@ The key distinction is that global rate limiting manages access to shared upstre
 
 ### **Comparison: Global vs. Local Rate Limiting**
 
-![Global vs. Local Rate Limiting](../assets/images/global-vs-local)
+![Global vs. Local Rate Limiting](../assets/images/global-vs-local.png)
 
 | Feature                 | Global Rate Limiting                          | Local Rate Limiting                         |
 |-------------------------|---------------------------------------------|--------------------------------------------|
