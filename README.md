@@ -1,1 +1,1 @@
-# solo-docs
+# mesh-docs
