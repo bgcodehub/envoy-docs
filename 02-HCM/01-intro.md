@@ -38,12 +38,6 @@ Envoy applies filters **in a specific order** based on their function:
 The image below illustrates this process:
 ![Encoder Decoder Chain](../assets/images/encoder-decoder-chain.png)
 
-```
-Filter 1 (encoder/decoder) → Filter 2 (encoder) → Filter 3 (decoder)
-   ↓                      ↓                          ↓
-Request Path       Response Path
-```
-
 ## Data Sharing Between Filters
 Filters in Envoy share data using two mechanisms:
 
